@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To login into masternode",
+        "description": "",
+        "id": "csv-plugin-test;to-login-into-masternode",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131019651,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "code for logining into masters",
+            "match": {
+              "location": "MyStepdefs.codeForLoginingIntoMasters()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93443,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "running a consumer code jar inside the masters",
+            "match": {
+              "location": "MyStepdefs.runningAConsumerCodeJarInsideTheMasters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62766,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "see the home page of masters",
+            "match": {
+              "location": "MyStepdefs.seeTheHomePageOfMasters()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "csv-plugin test",
+    "description": "This feature deals with the fucntionality of csv-plugin",
+    "id": "csv-plugin-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/features.feature"
+  }
+]

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="automation:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/automation_jar2</output-path>
+    <root id="archive" name="automation.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="automation" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
